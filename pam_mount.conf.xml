@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pam_mount>
+<volume fstype="cifs" user="*" server="10.56.208.7" path="publico" mountpoint="/media/publico/" options="iocharset=utf8" />
+<volume fstype="cifs" user="*" server="10.56.208.7" path="secao-pel" mountpoint="/media/secao-pel/" options="iocharset=utf8" />
+<debug enable="0" />
+<mntoptions allow="nosuid,nodev,loop,encryption,fsck,nonempty,allow_root,allow_other" />"
+<mntoptions require="nosuid,nodev" />"
+<logout wait="0" hup="0" term="0" kill="0" />"
+<mkmountpoint enable="1" remove="true" />
+</pam_mount>
+
